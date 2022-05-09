@@ -10,7 +10,7 @@ public class Tarefa3 implements Runnable{
 	public void run() {
 		while(eo.getValor() != 2) {
 			try {
-				Thread.sleep(10000);
+				Thread.sleep(10);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
